@@ -1,0 +1,23 @@
+{
+  "name": "dotlim-repo",
+  "version": "1.0.0",
+  "description": "Engineered front-end solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotlim/dotlim.git"
+  },
+  "author": "oxyzhg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dotlim/dotlim/issues"
+  },
+  "homepage": "https://github.com/dotlim/dotlim#readme",
+  "devDependencies": {
+    "@types/node": "^15.12.5",
+    "typescript": "^4.3.4"
+  }
+}
