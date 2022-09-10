@@ -1,0 +1,8 @@
+.DS_Store
+.idea
+/.vscode/
+*.local
+*.log
+node_modules
+dist
+.eslintcache

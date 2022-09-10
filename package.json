@@ -1,0 +1,23 @@
+{
+  "name": "dotlim-repo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "rm -rf node_modules packages/*/node_modules",
+    "format": "prettier --write --cache .",
+    "lint": "eslint --cache ."
+  },
+  "keywords": [
+    "dotlim"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@dotlim/fabric": "workspace:*",
+    "@types/node": "^18.7.16",
+    "eslint": "^8.23.0",
+    "eslint-define-config": "^1.7.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.3"
+  }
+}
