@@ -1,0 +1,58 @@
+{
+  "name": "@dotlim/fabric",
+  "version": "2.0.0",
+  "description": "A collection of project configuration files",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.8",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "@types/prettier": "^2.7.0",
+    "tsup": "^6.2.3"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "exports": {
+    "./prettier": {
+      "import": "./dist/prettier.mjs",
+      "require": "./dist/prettier.js"
+    },
+    "./eslint": {
+      "import": "./dist/eslint.mjs",
+      "require": "./dist/eslint.js"
+    },
+    "./eslint-base": {
+      "import": "./dist/eslint-base.mjs",
+      "require": "./dist/eslint-base.js"
+    },
+    "./eslint-typescript": {
+      "import": "./dist/eslint-typescript.mjs",
+      "require": "./dist/eslint-typescript.js"
+    },
+    "./eslint-react": {
+      "import": "./dist/eslint-react.mjs",
+      "require": "./dist/eslint-react.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "fabric",
+    "eslint",
+    "prettier",
+    "tsconfig"
+  ],
+  "author": "oxyzhg@163.com",
+  "license": "MIT"
+}
